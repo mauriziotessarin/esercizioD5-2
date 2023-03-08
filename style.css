@@ -17,50 +17,54 @@ section {
 .container1 {
   width: 900px;
   font-size: 0;
-      }
+}
+
 .container1 div {
   width: 100px;
   height: 100px;
   border: 1px solid black;
   display: inline-block;
   font-size:1rem;
-  }     
+}     
 
 .container2 {
   width: 900px;
   font-size: 0;
-  }
+
+}
 .container2 div {
   width: 100px;
   height: 100px;
   border: 1px solid black;
   display: inline-block;
   font-size:1rem;
-  }
+}
 
 .container3 {
   width: 900px;
   font-size: 0;
-  }
+}
+
 .container3 div {
   width: 100px;
   height: 100px;
   border: 1px solid black;
   display: inline-block;
   font-size:1rem;
-  }
+}
 
  .container4 {
   width: 900px;
   font-size: 0;
-  }
+}
+
 .container4 div {
   width: 100px;
   height: 100px;
   border: 1px solid black;
   display: inline-block;
   font-size:1rem;
- }
+}
 
 .container1 div:nth-child(even),
 .container2 div:nth-child(odd) {
@@ -110,11 +114,6 @@ section {
   top: 40px;
   font-size: 28px;
   font-weight: bold;
-}
-
-.container2 div:not(:first-child, :last-child),
-.container3 div:not(:first-child, :last-child) {
-  font-size: 0;
 }
 
 .container1 div span {
