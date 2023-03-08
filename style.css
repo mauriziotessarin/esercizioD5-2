@@ -1,0 +1,155 @@
+h1 {
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  padding-top: 100px;
+}
+
+section {
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  padding-top: 140px;
+}
+
+.container1 {
+  width: 900px;
+  font-size: 0;
+      }
+.container1 div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: inline-block;
+  font-size:1rem;
+  }     
+
+.container2 {
+  width: 900px;
+  font-size: 0;
+  }
+.container2 div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: inline-block;
+  font-size:1rem;
+  }
+
+.container3 {
+  width: 900px;
+  font-size: 0;
+  }
+.container3 div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: inline-block;
+  font-size:1rem;
+  }
+
+ .container4 {
+  width: 900px;
+  font-size: 0;
+  }
+.container4 div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: inline-block;
+  font-size:1rem;
+ }
+
+.container1 div:nth-child(even),
+.container2 div:nth-child(odd) {
+  background-color: #AF9069;
+}
+
+.container1 div:nth-child(odd),
+.container2 div:nth-child(even) {
+  background-color: black;
+}
+
+.container3 div:nth-child(even),
+.container4 div:nth-child(odd) {
+  background-color: #AF9069;
+}
+
+.container3 div:nth-child(odd),
+.container4 div:nth-child(even) {
+  background-color: black;
+}
+
+.container1 div,
+.container2 div,
+.container3 div,
+.container4 div {
+  position: relative;
+}
+
+.container2 div span,
+.container3 div span {
+  position: absolute;
+}
+
+.container2 div:nth-child(1) span,
+.container3 div:nth-child(1) span {
+  position: absolute;
+  right: 120px;
+  top: 40px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.container2 div:nth-child(8) span,
+.container3 div:nth-child(8) span {
+  position: absolute;
+  left:  120px;
+  top: 40px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.container2 div:not(:first-child, :last-child),
+.container3 div:not(:first-child, :last-child) {
+  font-size: 0;
+}
+
+.container1 div span {
+  position: absolute;
+  bottom: 105px;
+  right: 40px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.container4 div span {
+  position: absolute;
+  top:  105px;
+  right: 40px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.container1 div:nth-child(1) span:nth-child(2),
+.container4 div:nth-child(1) span:nth-child(2){
+  position: absolute;
+  right: 120px;
+  top: 40px;
+}
+
+.container1 div:nth-child(8) span:nth-child(2),
+.container4 div:nth-child(8) span:nth-child(2) {
+  position: absolute;
+  left: 120px;
+  top: 40px;
+}
+
+.container1 div:hover,
+.container2 div:hover,
+.container3 div:hover,
+.container4 div:hover {
+  background-color: red;
+}
